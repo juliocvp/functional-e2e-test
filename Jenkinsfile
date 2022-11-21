@@ -27,7 +27,6 @@ spec:
             defaultContainer 'shell'
         }
     }
-  }
 
   stages {
 
