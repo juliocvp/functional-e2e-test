@@ -16,7 +16,7 @@ public class AddTutorial implements Task {
     @Override
     @Step("{0} navigate to the form section")
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Open.relativeUrl("https://3452-213-0-57-163.eu.ngrok.io/tutorials"));
+        actor.attemptsTo(Open.relativeUrl("https://1dee-213-0-57-163.eu.ngrok.io/tutorials"));
         actor.attemptsTo(FillAddTutorialForm.fill());
     }
 
